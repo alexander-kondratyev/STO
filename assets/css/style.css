@@ -60,12 +60,6 @@ header {
 	text-align: center;
 }
 
-/* Адаптивность */
-@media (max-width: 768px) {
-	header {
-		padding: 10px 0;
-	}
-}
 
 h1,
 h2,
