@@ -87,7 +87,8 @@ h6 {
 }
 
 .navbar-default {
-	background-color: transparent;
+	/*background-image: linear-gradient(#d8cccc, #7a7a7a);*/
+	background-color: rgba(255 208 149 / 54%);
 	border-color: transparent;
 }
 
@@ -142,7 +143,7 @@ h6 {
 }
 
 #why {
-	background: #444 url(../img/bucket2.jpg) no-repeat center top fixed;
+	background: #444 url(../img/background3.jpg) no-repeat center top fixed;
 	margin-top: 0px;
 	padding-top: 0px;
 	text-align: Left;
@@ -184,7 +185,11 @@ h6 {
 }
 
 #w {
-	background: url(../img/backgdound.jpg) no-repeat center top fixed;
+	background-image: url('../img/background2.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
 	padding-top: 60px;
 	color: white;
 	height: 600px;
@@ -370,10 +375,11 @@ a:hover .button_w {
 	font-size: 13px;
 	width: auto;
 	top: 100px;
+	border-radius: 10px;
 	padding: 8px 15px 8px 15px;
-	background: none;
-	border: 2px solid #e44;
-	color: #e44;
+	background-color: rgb(21, 168, 10);
+	border: 2px solid rgb(20, 167, 10);
+	color: rgb(255, 255, 255);
 	letter-spacing: 6px;
 	font-weight: bold;
 }
@@ -388,6 +394,7 @@ a:hover .button_r {
 	color: white;
 	height: 200px;
 	margin-left: 25px;
+	margin-top: 20px;
 }
 
 .iconsSocialAccounts {
@@ -400,8 +407,19 @@ a:hover .button_r {
 }
 
 .iconsPromotions {
-	height: 220px;
-	width: 220px;
+	height: 140px;
+	width: 140px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: white;
+	font-size: 1.5rem;
+}
+
+.iconsPromotions:hover {
+	height: 200px;
+	width: 200px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -442,7 +460,7 @@ a:hover .button_r {
 .gallery {
 
 	margin-left: -30px;
-
+	left: 50px;
 }
 
 .gallery img {

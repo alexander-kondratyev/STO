@@ -22,9 +22,8 @@
 </head>
 
 <body>
-
-	<!-- Static navbar -->
-	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation" style="display: flex;"><img class="iconLogo"
+			src="assets/img/logo.png" width="200px" height="50px"></img>
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -33,9 +32,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.html">
-					<div class="logo">СТО Первый регион</div>
-				</a>
+
 
 			</div>
 			<div class="navbar-collapse collapse">
@@ -51,6 +48,8 @@
 		</div>
 	</div>
 	<button id="back-to-top">Наверх</button>
+
+
 
 	<div id="headerwrap" style="height: 800px;">
 		<div class="container">
@@ -90,11 +89,15 @@
 						посте в
 						Instagram или Tik Tok и получи скидку 5% на
 						любую услугу в нашем СТО!</h1>
-					<div style="display: flex;" class="icons">
-						<img style="transform: rotate(-3deg);z-index: 1;" class="iconsPromotions"
-							src="assets/img/icons/instagram.png" id="instagramPromo" alt="instagramPromo">
-						<img style="transform: rotate( 3deg);z-index: 2;" class="iconsPromotions"
-							src="assets/img/icons/tiktok.png" id="instagramTikTok" alt="instagramTikTok">
+					<div id=listIcons style="display: flex;" class="icons">
+						<a href="https://www.instagram.com/sto1region_baranovichi/">
+							<img style="transform: rotate(-3deg);z-index: 1;" class="iconsPromotions"
+								src="assets/img/icons/instagram.png" id="instagramPromo" alt="instagramPromo">
+						</a>
+						<a href="https://www.tiktok.com/@sto1region_baranovichi?_t=8pFVk64Kg6A&_r=1">
+							<img style="transform: rotate( 3deg);z-index: 2;" class="iconsPromotions"
+								src="assets/img/icons/tiktok.png" id="instagramTikTok" alt="instagramTikTok">
+						</a>
 					</div>
 				</div>
 
@@ -106,38 +109,43 @@
 	<! --/container -->
 
 
-		<div class="container">
+		<div id="brands" class="container" style="position: center;">
 			<div class="row centered mt mb">
-				<h1 style="margin-left: -200px;">Мы обслуживаем такие бренды, как</h1>
+				<h1 style="margin-left: -100px;">Мы обслуживаем такие бренды, как</h1>
 				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-					<a href="work.html"><img src="assets/img/portfolio/1.png" class="img-responsive bgcover">
+					<a href=""><img src="assets/img/portfolio/1.png" class="img-responsive bgcover"
+							style="height: 200px; width: 300px;">
 						<div class="price"></div>
 					</a>
 				</div>
 
 
 				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-					<a href="work.html"><img src="assets/img/portfolio/2.png" class="img-responsive bgcover">
+					<a href=""><img src="assets/img/portfolio/2.png" class="img-responsive bgcover"
+							style="height: 200px; width: 300px;">
 						<div class="price"></div>
 					</a>
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-					<a href="work.html"><img src="assets/img/portfolio/3.png" class="img-responsive bgcover">
-						<div class="price"></div>
-					</a>
-				</div>
-
-
-				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-					<a href="work.html"><img src="assets/img/portfolio/4.png" class="img-responsive bgcover">
+					<a href=""><img src="assets/img/portfolio/3.png" class="img-responsive bgcover"
+							style="height: 200px; width: 300px;">
 						<div class="price"></div>
 					</a>
 				</div>
 
 
 				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-					<a href="work.html"><img src="assets/img/portfolio/5.png" class="img-responsive bgcover">
+					<a href=""><img src="assets/img/portfolio/7.png" class="img-responsive bgcover"
+							style="height: 200px; width: 300px;">
+						<div class="price"></div>
+					</a>
+				</div>
+
+
+				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
+					<a href=""><img src="assets/img/portfolio/5.png" class="img-responsive bgcover"
+							style="height: 200px; width: 300px;">
 						<div class="price"></div>
 						<h2 style="font-size: 16px;margin-left: -100px;color:rgb(113, 124, 133)">И многие другие марки..
 						</h2>
@@ -145,7 +153,7 @@
 				</div>
 
 				<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-					<a href="work.html"><img src="assets/img/portfolio/6.png" class="img-responsive bgcover">
+					<a href=""><img src="assets/img/portfolio/6.png" class="img-responsive bgcover">
 						<div class="price"></div>
 
 					</a>
@@ -157,7 +165,7 @@
 
 			<div id="w" style="width: 100%;height: 100%;">
 				<div id="serviceAndPrice" class="container">
-					<div class="row">
+					<div class="row"style="">
 						<div class="row centered mt mb" style="margin-top: -60px;">
 							<h1>Мы выполняем следующие виды работ:</h1>
 							<table>
@@ -1120,65 +1128,62 @@
 					</div>
 				</div>
 			</div>
-			<div id="why">
-				<div id="w2">
-					<div class="container" style="height: 500px;">
-						<div class="row">
-							<div class="row centered mt mb">
-								<h1>Почему стоит выбрать нас?</h1>
-								<div class="whyWe&" style="display: flex;">
-									<div class="col-lg-3 col-md-3 col-sm-3 icons">
-										<center><img src="assets/img/icons/medic_01.svg" class="icons">
-											<h4>Рекомендуем только</br>качественные запчасти</h4>
-										</center>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3 icons">
-										<center><img src="assets/img/icons/medic_06.svg" class="icons">
-											<h4>Обслуживание в</br>кратчайшие сроки</h4>
-										</center>
-									</div>
-									<div class="col-lg-3 col-md-3 col-sm-3 icons">
-										<center><img src="assets/img/icons/medic_07.svg" class="icons">
-											<h4>Проконсультируем</br>бесплатно</h4>
-										</center>
+
+			
+				<div id="why">
+					<div id="w2">
+						<div class="container" style="height: 500px;top: -200px;">
+							<div class="row">
+								<div class="row centered mt mb">
+									<h1>Почему стоит выбрать нас?</h1>
+									<div class="whyWe&" style="display: flex;">
+										<div class="col-lg-3 col-md-3 col-sm-3 icons">
+											<center><img src="assets/img/icons/medic_01.svg" class="icons">
+												<h4>Рекомендуем только</br>качественные запчасти</h4>
+											</center>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 icons">
+											<center><img src="assets/img/icons/medic_06.svg" class="icons">
+												<h4>Обслуживание в</br>кратчайшие сроки</h4>
+											</center>
+										</div>
+										<div class="col-lg-3 col-md-3 col-sm-3 icons">
+											<center><img src="assets/img/icons/medic_07.svg" class="icons">
+												<h4>Проконсультируем</br>бесплатно</h4>
+											</center>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<! --/row -->
-					</div> <!-- /container -->
+							<! --/row -->
+						</div> <!-- /container -->
+					</div>
+					<! --/why -->
 				</div>
-				<! --/why -->
-			</div>
-
-
-
-
-			<div id="aboutUs" class="container">
-				<div class="row centered mt mb">
-					<h1>О нас</h1></br>
-					<div class="col-lg-4 col-md-4 col-sm-4">ИП Гулиев Рамил
-						Мехманович</br>213823,г.Бобруйск, ул.Оранжерейная 1, кв 100
-						</br>УНП: 252525</div>
-					<div class="col-lg-4 col-md-4 col-sm-4">Мы находимся по адресу: ул. Матросова 80а,
-						Барановичи, Брестская область 225413, Беларусь</div>
-					<div class="col-lg-4 col-md-4 col-sm-4">Наши социальные сети:</br>TikTok -
-						<a
-							href="https://www.tiktok.com/@sto1region_baranovichi?_t=8pFVk64Kg6A&_r=1">Перейти</a></br>Instagram
-						- <a href="https://www.instagram.com/sto1region_baranovichi/">Перейти</a></br>Telegram - <a
-							href="https://t.me/Gerbstek">Перейти</a></br>Viber - <a
-							href="https://www.instagram.com/sto1region_baranovichi/">Перейти</a>
+				<div id="whyWeAndAboutUs" style="display: flex;">
+				<div id="aboutUs" class="container">
+					<div class="row centered mt mb">
+						<h1>О нас</h1></br>
+						<div class="col-lg-4 col-md-4 col-sm-4">ИП Гулиев Рамил
+							Мехманович</br>213823,г.Бобруйск, ул.Оранжерейная 10, кв 100
+							</br>УНП: 252525</div>
+						<div class="col-lg-4 col-md-4 col-sm-4"><strong>Мы находимся по адресу:</strong> ул. Матросова 80а,
+							Барановичи, Брестская область 225413, Беларусь</div>
+						<div class="col-lg-4 col-md-4 col-sm-4"><strong>Наши социальные сети:</strong></br>TikTok -
+							<a
+								href="https://www.tiktok.com/@sto1region_baranovichi?_t=8pFVk64Kg6A&_r=1">Перейти</a></br>Instagram
+							- <a href="https://www.instagram.com/sto1region_baranovichi/">Перейти</a></br>Telegram - <a
+								href="https://t.me/Gerbstek">Перейти</a>
+						</div>
 					</div>
 				</div>
+
+				<div id="google">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.597876055184!2d25.97524437705833!3d53.135363790488476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d8cf4373ab62b9%3A0x900a4affc9bebfe3!2z0JDQstGC0L7RgdC10YDQstC40YEgItCf0LXRgNCy0YvQuSDQoNC10LPQuNC-0L0iINCzLiDQkdCw0YDQsNC90L7QstC40YfQuA!5e0!3m2!1sru!2sus!4v1725286409414!5m2!1sru!2sus"
+						width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
 			</div>
-
-
-			<div id="google">
-				<iframe
-					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.597876055184!2d25.97524437705833!3d53.135363790488476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46d8cf4373ab62b9%3A0x900a4affc9bebfe3!2z0JDQstGC0L7RgdC10YDQstC40YEgItCf0LXRgNCy0YvQuSDQoNC10LPQuNC-0L0iINCzLiDQkdCw0YDQsNC90L7QstC40YfQuA!5e0!3m2!1sru!2sus!4v1725286409414!5m2!1sru!2sus"
-					width="100%" height="560" frameborder="0" style="border:0" allowfullscreen></iframe>
-			</div>
-
 
 
 			<!-- Bootstrap core JavaScript
