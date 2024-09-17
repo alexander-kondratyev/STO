@@ -82,7 +82,7 @@ h6 {
 
 .navbar-default {
 	/*background-image: linear-gradient(#d8cccc, #7a7a7a);*/
-	background-color: rgba(255 208 149 / 54%);
+	background-color: rgba(231 181 118 / 88%);
 	border-color: transparent;
 }
 
@@ -416,7 +416,7 @@ a:hover .button_r {
 	width: 200px;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: auto;
 	text-align: center;
 	color: white;
 	font-size: 1.5rem;
